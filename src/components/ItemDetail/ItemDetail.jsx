@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ItemCounter from "../ItemCounter/ItemCounter";
 import "../ItemDetail/ItemDetail.scss"
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ItemDetail = ({ id, foto, articulo, descripcion, marca, precio, category, seccion, stock }) => {
     const [cantidad, setCounter] = useState(1)
